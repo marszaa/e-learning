@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Twoj korepetytor</title>
-
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/aos.css">
     <link href="css/style.css" rel="stylesheet">
 
 </head>
@@ -21,40 +21,40 @@
             <a>
                 <span>Zadzwoń do nas!</span>
                 <img src="img/phone.svg" />
-                <span class="telephone">0 (46) 604-45-22</span>
+                <span class="telephone ">0 (46) 604-45-22</span>
             </a>
-            <button class="btn btn-primary navbar-btn">Darmowa lekcja próbna</button>
+            <a href="#section5"<button class="btn btn-primary navbar-btn">Darmowa lekcja próbna</button></a>
         </div>
 
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
+
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-      </button>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                     </button>
                     <a class="navbar-brand logo" href="#">Twój Korepetytor</a>
                 </div>
 
-                <div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
 
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#section1">Dlaczego my?</a></li>
-                            <li><a href="#section2">Kursy</a></li>
-                            <li><a href="#section3">Przedmioty</a></li>
-                            <li><a href="#section41">Języki obce</a></li>
-                            <li><a href="#section42">Kontakt</a></li>
-                        </ul>
-                    </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#section1">Dlaczego my?</a></li>
+                        <li><a href="#section2">Kursy</a></li>
+                        <li><a href="#section3">Języki obce</a></li>
+                        <li><a href="#section4">Przedmioty</a></li>
+                        <li><a href="#section5">Kontakt</a></li>
+                    </ul>
                 </div>
+
             </div>
         </nav>
     </header>
 
     <!-- JUMBOTRON -->
-    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+    <section id="mycarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
@@ -107,81 +107,217 @@
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-    </div>
+    </section>
 
     <!-- SECTIONS -->
 
     <!-- Przesuniecie kolumny o 3 pola od marginesu -->
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <h2>Oszczędność czasu</h2>
-                <p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
-                    unchanged. </p>
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <img id="savetime" src="img/savetime.svg" class="img-responsive">
-            </div>
+
+            <!-- SEKCJA 1: DLACZEGO MY -->
+            <section id="section1" class="container-fluid allSections">
+                <div class="row">
+                    <h2 class="forAllSections centerMyText"> Dlaczego my? </h2>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <img src="img/convenience.svg" class="img-responsive whyUsImage">
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <h3 class="forAllSections">Wygoda</h3>
+                        <p class="forAllSections justifyMyText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                            type and scrambled it to make a type specimen book. </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <h3 class="forAllSections">Oszczędność czasu</h3>
+                        <p class="forAllSections"> It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+                            essentially unchanged. </p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <img src="img/savetime.svg" class="img-responsive whyUsImage">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <img src="img/teacher.svg" class="img-responsive whyUsImage">
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <h3 class="forAllSections">Doświadczeni lektorzy</h3>
+                        <p class="forAllSections">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                            Latin literature from 45 BC, making it over 2000 years old. </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <h3 class="forAllSections">Indywidualne podejście do ucznia</h3>
+                        <p class="forAllSections">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                            type and scrambled it to make a type specimen book. </p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <img src="img/learning.svg" class="img-responsive whyUsImage">
+                    </div>
+                </div>
+            </section>
 
 
+            <!-- SEKCJA 2: KURSY -->
+            <section id="section2" class="container-fluid allSections">
+                <div class="row">
+                    <h2 class="forAllSections centerMyText"> Kursy </h2>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="animation-element bounce-up cf">
+                            <div class="subject development">
+                                <img src="img/child.svg" alt="Random Name">
+                                <h4 class="forAllSections centerMyText"><strong>Dla najmłodszych</strong></h4>
+                                <p class="forAllSections">Mamy świetne podejście do dzieci, które umożliwi naukę na bierząco i ten tekst jeszcze ulegnie
+                                    zmianie.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="animation-element bounce-up cf">
+                            <div class="subject development">
+                                <img src="img/teen.svg" alt="Random Name">
+                                <h4 class="forAllSections"><strong>Dla maturzystów</strong></h4>
+                                <p class="forAllSections">Przygotowujemy Cię do matury abyś mógł zdać z perfekcyjnym wynikiem zapewniającym dostanie
+                                    się na wymarzone studia! </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="animation-element bounce-up cf">
+                            <div class="subject development">
+                                <img src="img/business.svg" alt="Random Name">
+                                <h4 class="forAllSections"><strong>Kursy zawodowe</strong></h4>
+                                <p class="forAllSections">Oferujemy najlepsze korepetycje na świecie, które cudownie przygotują Cię do zdania egzaminu
+                                    zawodowego z wzorowym wynikiem!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <!-- SEKCJA 3: JĘZYKI OBCE -->
 
+            <section id="section3" class="container-fluid allSections">
+                <h2 class="forAllSections centerMyText"> Języki obce </h2>
+                <div class="content">
+                    <ul id="flexiselDemo3">
+                        <li>
+                            <div class="thumbnail"><img src="img/russia.jpg" />
+                                <h3 class="forAllSections">Język rosyjski</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="thumbnail"><img src="img/england.jpg" />
+                                <h3 class="forAllSections">Język angielski</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="thumbnail"><img src="img/spain.jpg" />
+                                <h3 class="forAllSections">Język hiszpański</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="thumbnail"><img src="img/germany.jpg" />
+                                <h3 class="forAllSections">Język niemiecki</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="thumbnail"><img src="img/france.jpg" />
+                                <h3 class="forAllSections">Język francuski</h3>
+                            </div>
+                        </li>
+                    </ul>
 
+                </div>
+            </section>
 
+            <!-- SEKCJA 4: PRZEDMIOTY SZKOLNE -->
 
-    <div id="section2" class="container-fluid">
-        <h1>Section 2</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-            the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-            the navigation bar while scrolling!</p>
-    </div>
-    <div id="section3" class="container-fluid">
-        <h1>Section 3</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-            the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-            the navigation bar while scrolling!</p>
-    </div>
-    <div id="section41" class="container-fluid">
-        <h1>Section 4 Submenu 1</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-            the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-            the navigation bar while scrolling!</p>
-    </div>
-    <div id="section42" class="container-fluid">
-        <h1>Section 4 Submenu 2</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-            the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-            the navigation bar while scrolling!</p>
-    </div>
+            <section id="section4" class="container-fluid allSections">
+                <h2 class="forAllSections centerMyText"> Przedmioty szkolne</h2>
+                <div class="container">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    <div class="row">
+                        <div class="col-md-4 col-xs-12">
+                            <div class="animation-element bounce-up cf">
+                                <div class="subject development">
+                                    <img src="img/geography.svg" alt="Lights">
+                                    <h3 class="forAllSections">Geografia</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                            <div class="animation-element bounce-up cf">
+                                <div class="subject development">
+                                    <img src="img/math.svg" alt="Lights">
+                                    <h3 class="forAllSections">Matematyka</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                            <div class="animation-element bounce-up cf">
+                                <div class="subject development">
+                                    <img src="img/chemistry.svg" alt="Lights">
+                                    <h3 class="forAllSections">Chemia</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
         </div>
     </div>
 
+    <!-- KONIEC PRZESUNIĘCIA -->
 
-  
+    <!-- FOOTER -->
 
+    <footer id="section5" class="container-fluid text-center allSections">
+        <h2 class="text-center">Zadzwoń lub napisz i umów się na bezpłatną lekcję próbną</h2>
+        <div class="row">
+            <div class="col-sm-6 col-xs-12">
+                <p><img src="img/telephone.svg"></span> +48 534 645 736</p>
+                <p><img src="img/gmail.svg"></span> twojkorepetytor@gmail.com</p>
+                <p><img src="img/skype.svg"></span> twojkorepetytor.skype</p>
+                <p><img src="img/time.svg"></span> Od 9 do 22</p>
+            </div>
+            <section class="col-sm-6 col-xs-12">
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Imię" type="text" required>
+                    </div>
+                    <div class="col-sm-12 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Adres Email" type="email" required>
+                    </div>
+                    <div class="col-sm-12 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Dzień" type="email" required>
+                    </div>
+                    <div class="col-sm-12 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Godzina" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Uwagi i sugestie dotyczące lekcji" rows="5"></textarea>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-center" type="submit">Wyślij</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.flexisel.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
 </body>
 
