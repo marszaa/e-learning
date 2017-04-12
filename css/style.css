@@ -5,11 +5,11 @@
       font-family: 'Roboto Condensed', sans-serif;
   }
 
-  #section1 {padding-top:50px; padding-bottom: 50px; color: #fff; background-color:#f2f2f2;}
-  #section2 {padding-top:50px; padding-bottom: 50px;color: #fff; background-color: #f9f9f9;}
-  #section3 {padding-top:50px; padding-bottom: 50px;color: #fff; background-color: #f2f2f2;}
-  #section4 {padding-top:50px;padding-bottom: 50px;color: #fff; background-color: #e6e6e6;}
-  #section5 {padding-top:50px;padding-bottom: 50px;color: #fff; background-color: #1D3557;}
+  #dlaczegoMy {padding-top:50px; padding-bottom: 50px; color: #fff; background-color:#f2f2f2;}
+  #kursy {padding-top:50px; padding-bottom: 50px;color: #fff; background-color: #f9f9f9;}
+  #jezyki {padding-top:50px; padding-bottom: 50px;color: #fff; background-color: #f2f2f2;}
+  #przedmioty {padding-top:50px;padding-bottom: 50px;color: #fff; background-color: #e6e6e6;}
+  #kontakt {padding-top:50px;padding-bottom: 50px;color: #fff; background-color: #1D3557;}
 
   #left-image-arrow, #right-image-arrow {
       width: 30px;
@@ -105,11 +105,6 @@ a svg {
     padding-left: 7%;
 }
 
-h3 {
-  display: inline-block;
-  padding: 10px;
-
-}
 
 .full-screen {
   background-size: cover;
@@ -176,47 +171,54 @@ h3 {
     font-weight: 900;
 }
                                 /* SECTION 2 */
-#section2 img {
+#kursy img {
     width: 170px;
     display: block;
     margin: 0 auto;
 }
 
                                 /* SECTION 3 */
-#section3 img {
+#jezyki img {
     padding: 7px;
     position: relative; 
 }
 
-#section3 h3 {
+#jezyki h3 {
     margin-top: 4px;
 }
 
                                 /* SECTION 4 */
 
-#section4 img {
-    width: 170px;
-    padding: 7px;
+#przedmioty img {
+    width: 150px;
+
     position: relative; 
-    margin-bottom: 70px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+
+}
+
+#przedmioty h3 {
+    text-align: center;
 }
 
                                 /* SECTION 5 */
 
-#section5 h2 {
+#kontakt h2 {
     margin-bottom: 60px;
 }
 
-#section5 img {
+#kontakt img {
     width: 40px;
 }
 
-#section5 button {
+#kontakt button {
     margin-top: 15px;
 }
 
 .form-control {
-    width:300px;
+    width:270px;
 }
 
 .nbs-flexisel-container {
@@ -327,6 +329,11 @@ h3 {
 
 .form-control {
     margin: 0 auto; 
+}
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
