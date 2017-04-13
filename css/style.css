@@ -334,6 +334,15 @@ a svg {
     .whyUsImage {
     width: 150px;
 }
+    .item h1 {
+    font-size: 50px !important;
+    font-weight: 400 !important;
+   }
+    .item p {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+   }
+
 
 }
 @media (max-width: 700px) {
