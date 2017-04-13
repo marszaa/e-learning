@@ -347,7 +347,7 @@ a svg {
 
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
       .item h1 {
     font-size: 40px !important;
     font-weight: 400 !important;
@@ -360,7 +360,7 @@ a svg {
    }
 
 }
-@media (max-width: 700px) {
+@media (min-width: 700px) {
       .item h1 {
     font-size: 30px !important;
     font-weight: 400 !important;
