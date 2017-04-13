@@ -334,18 +334,6 @@ a svg {
 
 }
 
-@media (min-width: 1024px) {
-      .item h1 {
-    font-size: 55px !important;
-    font-weight: 400 !important;
-   }
-
-  .item p {
-    font-size: 20px !important;
-    font-weight: 400 !important;
-   }
-
-}
 
 @media (min-width: 1024px) {
       .item h1 {
@@ -376,5 +364,14 @@ a svg {
 .whyUsImage {
     margin-top: 40%;
 }
+    .item h1 {
+    font-size: 25px !important;
+    font-weight: 400 !important;
+    margin-top: 45%;
+   }
+
+  .item p {
+   display: none;
+   }
 
 }
