@@ -326,7 +326,7 @@ a svg {
   background-repeat: no-repeat;
 }
 
-
+/* RWD */ 
 @media (max-width: 779px) {
 .someclassname { 
     display: none;
