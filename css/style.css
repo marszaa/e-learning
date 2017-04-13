@@ -285,7 +285,6 @@ a svg {
     opacity: 0.4;
 }
 
-
                                 /* SECTION 3 AND 4: ANIMATION: UP */
 
 .bounce-up .subject {
@@ -330,12 +329,10 @@ a svg {
 
 }
 
-
 @media (min-width: 1024px) {
 
     .whyUsImage {
     width: 150px;
-
 }
 
 }
@@ -368,5 +365,4 @@ a svg {
   .item p {
    display: none;
    }
-
 }
