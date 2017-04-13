@@ -121,16 +121,6 @@ a svg {
     color:white;
    }
 
-  .item h1 {
-    font-size: 54px !important;
-    font-weight: 400 !important;
-   }
-
-  .item p {
-    font-size: 24px !important;
-    font-weight: 400 !important;
-   }
-
 #convenience-image, #savetime, #teacher, #learning{
     width: 300px;
     display: block;
