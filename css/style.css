@@ -121,28 +121,20 @@ a svg {
     color:white;
    }
 
-#convenience-image, #savetime, #teacher, #learning{
-    width: 300px;
+.whyUsImage {
+    width: 200px;
     display: block;
     margin: 0 auto;
-    margin-bottom: 10px;
+
 }
 
-.whyUsImage {
-    width: 300px;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}
                                 /* SECTIONS */
 
 .forAllSections {
     color:#1D3557;
     font-family: Verdana , sans-serif;
 }
-.justifyMyText {
-    text-align: justify;
-}
+
 
 .centerMyText {
     text-align: center;
@@ -196,7 +188,7 @@ a svg {
                                 /* SECTION 5 */
 
 #kontakt h2 {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 #kontakt img {
@@ -209,6 +201,10 @@ a svg {
 
 .form-control {
     width:270px;
+}
+
+.infos {
+    margin-bottom: 5%;
 }
 
 .nbs-flexisel-container {
@@ -336,15 +332,11 @@ a svg {
 
 
 @media (min-width: 1024px) {
-      .item h1 {
-    font-size: 40px !important;
-    font-weight: 400 !important;
-   }
 
-  .item p {
-    font-size: 20px !important;
-    font-weight: 400 !important;
-   }
+    .whyUsImage {
+    width: 150px;
+
+}
 
 }
 @media (max-width: 700px) {
@@ -357,6 +349,10 @@ a svg {
   .item p {
    display: none;
    }
+   .whyUsImage {
+    width: 150px;
+    margin-top: 15%;
+}
 
 }
 @media (max-width: 460px) {
