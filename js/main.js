@@ -57,28 +57,9 @@ function check_if_in_view() {
     if ((element_bottom_position >= window_top_position) &&
       (element_top_position <= window_bottom_position)) {
       $element.addClass('in-view');
-    } else {
-      $element.removeClass('in-view');
-    }
+    } 
   });
 }
 
 $window.on('scroll resize', check_if_in_view);
 $window.trigger('scroll');
-
-/* NICE SSCROLL */
-
-$(".navbar a, footer a, .module-link").on('click', function (event) {
-  if (this.hash !== '') {
-    event.preventDefault();
-    var hash = this.hash;
-
-    $('html, body').animate({
-      scrollTop: $(hash).offset().top
-    }, 900, function () {
-      window.location.hash = hash;
-    });
-  } else {
-    $("html, body").animate({ scrollTop: 0 }, 900);
-  }
-});
