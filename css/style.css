@@ -17,7 +17,7 @@
 
   .navbar {
       background-color: #F7F7F7;
-      border: 0px solid;
+      border: none;
   }
 
   .nav.navbar-nav.navbar-right li a {
@@ -26,12 +26,18 @@
     font-size: 12px;
 }
 
-#myNavbar {
-    margin-right: 5.5%;
+  .nav.navbar-nav.navbar-right li a:focus {
+      background-color: #F7F7F7;
+          color:#1D3557;
 }
 
-.navbar-inverse .navbar-brand{
-    color: #1D3557;
+  .nav.navbar-nav.navbar-right li a:hover {
+      background-color: #F7F7F7;
+        color:#1D3557;
+}
+
+#myNavbar {
+    margin-right: 5.5%;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
@@ -257,7 +263,6 @@ a svg {
     cursor: pointer;
     z-index: 4;
     top:40%;
-    background: rgba(0,0,0,0.5);
     color: #fff;     
 }
 
