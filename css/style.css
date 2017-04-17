@@ -5,11 +5,11 @@
       font-family: 'Roboto Condensed', sans-serif;
   }
 
-  #dlaczegoMy {padding-top:50px; padding-bottom: 50px; color: #fff; background-color:#f2f2f2;}
-  #kursy {padding-top:50px; padding-bottom: 50px;color: #fff; background-color: #f9f9f9;}
-  #jezyki {padding-top:50px; padding-bottom: 50px;color: #fff; background-color: #f2f2f2;}
-  #przedmioty {padding-top:50px;padding-bottom: 50px;color: #fff; background-color: #e6e6e6;}
-  #kontakt {padding-top:50px;padding-bottom: 50px;color: #fff; background-color: #1D3557;}
+  #whyEcourse {padding-top:50px; padding-bottom: 50px; color: #fff; background-color:#f2f2f2;}
+  #courses {padding-top:50px; padding-bottom: 50px;color: #fff; background-color: #f9f9f9;}
+  #languages {padding-top:50px; padding-bottom: 50px;color: #fff; background-color: #f2f2f2;}
+  #subjects {padding-top:50px;padding-bottom: 50px;color: #fff; background-color: #e6e6e6;}
+  #contact {padding-top:50px;padding-bottom: 50px;color: #fff; background-color: #1D3557;}
 
   #left-image-arrow, #right-image-arrow {
       width: 30px;
@@ -70,7 +70,7 @@
     box-shadow: none;
 }
 
-.someclassname { 
+.contact-us-and-free-lesson { 
     height: 100px;
     background-color: #1D3557; 
     }
@@ -93,15 +93,15 @@ a svg {
     padding-left: 7%;
 }
 
-.someclassname img {
+.contact-us-and-free-lesson img {
     width: 20px;
 }
 
-.someclassname span {
+.contact-us-and-free-lesson span {
     color:#F7F7F7;
 }
 
-.someclassname span:first-child {
+.contact-us-and-free-lesson span:first-child {
     padding-left: 7%;
 }
 
@@ -153,25 +153,25 @@ a svg {
     font-weight: 900;
 }
                                 /* SECTION 2 */
-#kursy img {
+#courses img {
     width: 170px;
     display: block;
     margin: 0 auto;
 }
 
                                 /* SECTION 3 */
-#jezyki img {
+#languages img {
     padding: 7px;
     position: relative; 
 }
 
-#jezyki h3 {
+#languages h3 {
     margin-top: 4px;
 }
 
                                 /* SECTION 4 */
 
-#przedmioty img {
+#subjects img {
     width: 150px;
 
     position: relative; 
@@ -181,21 +181,21 @@ a svg {
 
 }
 
-#przedmioty h3 {
+#subjects h3 {
     text-align: center;
 }
 
                                 /* SECTION 5 */
 
-#kontakt h2 {
+#contact h2 {
     margin-bottom: 30px;
 }
 
-#kontakt img {
+#contact img {
     width: 40px;
 }
 
-#kontakt button {
+#contact button {
     margin-top: 15px;
 }
 
@@ -323,7 +323,7 @@ a svg {
 
 /* RWD */ 
 @media (max-width: 779px) {
-.someclassname { 
+.contact-us-and-free-lesson { 
     display: none;
     }
 

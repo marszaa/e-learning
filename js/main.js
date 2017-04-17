@@ -1,22 +1,22 @@
 /* CAROUSEL */
 
-var $item = $('.carousel .item'); 
+var $item = $('.carousel .item');
 var $wHeight = $(window).height();
 $item.eq(0).addClass('active');
-$item.height($wHeight); 
+$item.height($wHeight);
 $item.addClass('full-screen');
 
-$('.carousel img').each(function() {
+$('.carousel img').each(function () {
   var $src = $(this).attr('src');
   var $color = $(this).attr('data-color');
   $(this).parent().css({
-    'background-image' : 'url(' + $src + ')',
-    'background-color' : $color
+    'background-image': 'url(' + $src + ')',
+    'background-color': $color
   });
   $(this).remove();
 });
 
-$(window).on('resize', function (){
+$(window).on('resize', function () {
   $wHeight = $(window).height();
   $item.height($wHeight);
 });
@@ -28,15 +28,15 @@ $('.carousel').carousel({
 
 /* ANIMATE SECTION 3 */
 
-    $("#flexiselDemo3").flexisel({
-        visibleItems: 4,
-        itemsToScroll: 1,         
-        autoPlay: {
-            enable: true,
-            interval: 4000,
-            pauseOnHover: true
-        }        
-    });
+$("#flexiselDemo3").flexisel({
+  visibleItems: 4,
+  itemsToScroll: 1,
+  autoPlay: {
+    enable: true,
+    interval: 4000,
+    pauseOnHover: true
+  }
+});
 
 /* ANIMATE SECTION 2 AND 4*/
 
@@ -48,13 +48,12 @@ function check_if_in_view() {
   var window_top_position = $window.scrollTop();
   var window_bottom_position = (window_top_position + window_height);
 
-  $.each($animation_elements, function() {
+  $.each($animation_elements, function () {
     var $element = $(this);
     var element_height = $element.outerHeight();
     var element_top_position = $element.offset().top;
     var element_bottom_position = (element_top_position + element_height);
 
-    //check to see if this current container is within viewport
     if ((element_bottom_position >= window_top_position) &&
       (element_top_position <= window_bottom_position)) {
       $element.addClass('in-view');
@@ -66,3 +65,20 @@ function check_if_in_view() {
 
 $window.on('scroll resize', check_if_in_view);
 $window.trigger('scroll');
+
+/* NICE SSCROLL */
+
+$(".navbar a, footer a, .module-link").on('click', function (event) {
+  if (this.hash !== '') {
+    event.preventDefault();
+    var hash = this.hash;
+
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function () {
+      window.location.hash = hash;
+    });
+  } else {
+    $("html, body").animate({ scrollTop: 0 }, 900);
+  }
+});
